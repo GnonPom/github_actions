@@ -1,5 +1,5 @@
-name: Pytest & flake8 control Push
-on: [push]
+name: "Pytest & flake8 control Push"
+on: push
   qa:
     name: Check tests
     run-ons: ubuntu-20.04
@@ -23,4 +23,4 @@ on: [push]
 
       - name: Run flake8
         uses: py-actions/flake8@v2
-        
+
